@@ -1,6 +1,10 @@
 git-rv
 ======
 
+## Install
+
+    pip install git-rv
+
 ## Git Rietveld code review tool
 
 git-rv is a code review tool for uploading and downloading code reviews to a 

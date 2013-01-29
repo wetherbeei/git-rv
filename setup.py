@@ -1,7 +1,7 @@
 from distutils.core import setup
 
 setup(
-    name='GitRv',
+    name='git-rv',
     version='0.1.0',
     author='Ian Wetherbee',
     author_email='ian.wetherbee@gmail.com',

@@ -142,7 +142,7 @@ if __name__ == "__main__":
   cfg = Config()
   config = cfg.get()
 
-  branch = upload.RunShell(["git", "symbolic-ref", "--short", "-q", "HEAD"]) \
+  branch = upload.RunShell(["git", "symbolic-ref", "-q", "HEAD"]) \
     .replace("\r", "").replace("\n", "")
 
   if len(sys.argv) > 1:

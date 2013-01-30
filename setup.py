@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='git-rv',
-    version='0.1.0',
+    version='0.1.1',
     author='Ian Wetherbee',
     author_email='ian.wetherbee@gmail.com',
     packages=[],

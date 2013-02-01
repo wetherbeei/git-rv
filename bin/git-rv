@@ -182,7 +182,7 @@ if __name__ == "__main__":
       description_file.write(description)
       description_file.flush()
       options = ["upload.py", "-e", config["email"], 
-      "--cc", config.get("cc", ""), "--private", 
+      "--cc", config.get("cc", ""), "--private", "--send_mail", 
       "--title", title,
       "--file", description_file.name]
       # check for existing review
